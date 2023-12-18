@@ -1,4 +1,4 @@
-resource "docker_image" "todo_image" {
+resource "docker_image" "todo_image" { vikas
 	name = "trainwithshubham/todo-app-node:latest"
 	keep_locally = false
 }
